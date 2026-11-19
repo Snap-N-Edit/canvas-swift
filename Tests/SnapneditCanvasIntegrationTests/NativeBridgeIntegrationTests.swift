@@ -29,7 +29,7 @@ import WebKit
 ///   SEED_EMBED_KEY_NATIVE_ORIGIN=native:e2e.app \
 ///   node apps/dev/dist/main.js &
 /// API_PROXY_TARGET=http://127.0.0.1:8787 NEXT_PUBLIC_API_BASE=/api PORT=3000 \
-///   NEXT_DISABLE_STANDALONE=1 AUTH_SECRET=e2e-auth-secret \
+///   NEXT_DISABLE_STANDALONE=1 \
 ///   npm run start --workspace=@snapnedit/web &
 ///
 /// SNAPNEDIT_E2E_URL=http://localhost:3000 swift test --filter Integration
